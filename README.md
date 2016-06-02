@@ -1,15 +1,25 @@
 # Share-A-Directory-between-two-server-NFS
  Please grant the relevant permission on the shell scripts
+ 
  ./server_Mount.sh
+ 
       Takes three argument as follows
+ 
         client (Provider of the Shared file) ip address 
-        client directory which has exported to the server 
+ 
+        client directory which has exported to the server
+ 
         server directory which client's directory to be mounted
+ 
         
   ./client_Export.sh
+ 
       Takes three argument as follows
+ 
         server ip address to be exported
+ 
         client directory which should be exported to the particular server
+ 
         options aka permission for the expoted folder
                         
                         rw: This option allows the client server to both read and write within the shared directory
