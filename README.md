@@ -1,10 +1,10 @@
 # Share-A-Directory-between-two-server-NFS
- Plese grant the relevant permission on the shell scripts
+ Please grant the relevant permission on the shell scripts
  ./server_Mount.sh
       Takes three argument as follows
         client (Provider of the Shared file) ip address 
         client directory which has exported to the server 
-        server directory which client's dirctory to be mounted
+        server directory which client's directory to be mounted
         
   ./client_Export.sh
       Takes three argument as follows
